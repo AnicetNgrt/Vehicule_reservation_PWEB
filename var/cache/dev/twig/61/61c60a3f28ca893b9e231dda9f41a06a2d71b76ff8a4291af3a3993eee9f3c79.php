@@ -710,6 +710,6 @@ class __TwigTemplate_108ef7903f0dd64e002b1aaf0ca7b46f0e58b9bd26e74f8435984c8d848
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/mailer.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/vendor/symfony/web-profiler-bundle/Resources/views/Collector/mailer.html.twig");
+", "@WebProfiler/Collector/mailer.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/vendor/symfony/web-profiler-bundle/Resources/views/Collector/mailer.html.twig");
     }
 }

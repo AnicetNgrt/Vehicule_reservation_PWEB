@@ -168,6 +168,6 @@ class __TwigTemplate_693138d29dc753eb1da77193a756e441272b15ddcd12d62a6217bf691d8
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
     }
 }

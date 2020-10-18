@@ -155,6 +155,6 @@ class __TwigTemplate_92b2ef9e17bf0a7b1252dc9d42932e18b2088b8ff7e4ba5a1d6d6c99e16
 {% block panel %}
     {{ render(path('_profiler_router', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

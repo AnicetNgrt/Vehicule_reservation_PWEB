@@ -843,6 +843,6 @@ class __TwigTemplate_4a86b228b0c87e9508e0a7ee5a9df2ad48f5753157bc3fb7f4856ca0cfa
     </table>
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/messenger.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
+", "@WebProfiler/Collector/messenger.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
     }
 }

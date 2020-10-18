@@ -189,6 +189,6 @@ class __TwigTemplate_fa52c7557a793d6e6906a38a947331502adf217f884ea6c8d42afd7b998
 .timeline-graph .timeline-period {
     stroke-width: 0;
 }
-", "@WebProfiler/Collector/time.css.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.css.twig");
+", "@WebProfiler/Collector/time.css.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.css.twig");
     }
 }

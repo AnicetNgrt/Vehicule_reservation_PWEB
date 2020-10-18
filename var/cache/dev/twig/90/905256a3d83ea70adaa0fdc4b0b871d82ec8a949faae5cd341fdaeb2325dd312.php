@@ -227,6 +227,6 @@ class __TwigTemplate_121bed292a1822a9cc852c780880b18349e6588312e6e3532a1192f199a
         </div>
     </form>
 </div>
-", "@WebProfiler/Profiler/search.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/search.html.twig");
+", "@WebProfiler/Profiler/search.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/search.html.twig");
     }
 }

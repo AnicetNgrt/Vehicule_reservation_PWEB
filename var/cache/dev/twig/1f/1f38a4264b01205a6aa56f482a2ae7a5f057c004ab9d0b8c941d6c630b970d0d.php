@@ -58,13 +58,37 @@ class __TwigTemplate_755a9387ea19c184c464cad074d7f826f9ce8f2fd98058de425e5bf540c
         // line 7
         echo "    </head>
     <body>
-        ";
-        // line 9
-        $this->displayBlock('body', $context, $blocks);
+    <nav>
+            ";
         // line 10
+        if ( !twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 10, $this->source); })()), "user", [], "any", false, false, false, 10)) {
+            // line 11
+            echo "            <li>
+                <a href=\"";
+            // line 12
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("security_login");
+            echo "\"> Connexion </a>
+            </li>
+            ";
+        } else {
+            // line 15
+            echo "            <li>
+                <a href=\"";
+            // line 16
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("security_logout");
+            echo "\"> Déconnexion </a>
+            </li>
+            ";
+        }
+        // line 19
+        echo "        </nav>
+        ";
+        // line 20
+        $this->displayBlock('body', $context, $blocks);
+        // line 21
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 11
+        // line 22
         echo "    </body>
 </html>
 ";
@@ -113,7 +137,7 @@ class __TwigTemplate_755a9387ea19c184c464cad074d7f826f9ce8f2fd98058de425e5bf540c
 
     }
 
-    // line 9
+    // line 20
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -131,7 +155,7 @@ class __TwigTemplate_755a9387ea19c184c464cad074d7f826f9ce8f2fd98058de425e5bf540c
 
     }
 
-    // line 10
+    // line 21
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -154,9 +178,14 @@ class __TwigTemplate_755a9387ea19c184c464cad074d7f826f9ce8f2fd98058de425e5bf540c
         return "base.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  135 => 10,  117 => 9,  99 => 6,  80 => 5,  68 => 11,  65 => 10,  63 => 9,  59 => 7,  57 => 6,  53 => 5,  47 => 1,);
+        return array (  159 => 21,  141 => 20,  123 => 6,  104 => 5,  92 => 22,  89 => 21,  87 => 20,  84 => 19,  78 => 16,  75 => 15,  69 => 12,  66 => 11,  64 => 10,  59 => 7,  57 => 6,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -169,10 +198,21 @@ class __TwigTemplate_755a9387ea19c184c464cad074d7f826f9ce8f2fd98058de425e5bf540c
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+    <nav>
+            {% if not app.user%}
+            <li>
+                <a href=\"{{ path('security_login') }}\"> Connexion </a>
+            </li>
+            {% else %}
+            <li>
+                <a href=\"{{ path('security_logout') }}\"> Déconnexion </a>
+            </li>
+            {% endif %}
+        </nav>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/pweb/templates/base.html.twig");
+", "base.html.twig", "/home/anicetnougaret/Work/Courses/2020-2021/s3/PWEB/projet/templates/base.html.twig");
     }
 }
